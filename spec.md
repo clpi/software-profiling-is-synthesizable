@@ -191,3 +191,49 @@ Executable, achievable, measurable. Each step names its measure.
    per stakeholder class. Measure: the projection itself,
    once its form is chosen; this step is proposed until the
    open item above it closes.
+
+## Completion pass, 2026-11-18
+
+A second landing the same day, closing the gaps the first
+landing named or left implicit. The definitions of every term
+of the model now stand in the file named defs, at the
+resolution an implementer needs, each tied to its Lean
+counterpart. The Lean development gained six theorems and one
+control, all proved in full under the same gate:
+
+- complete. Combinatorial sufficiency: every truth assignment
+  of length k occurs among the assignments of k witness
+  positions. The witness set realizes every combination, not
+  merely the count of them.
+- free. Freedom of a witness position: any value at a
+  position, with any assignment of the rest, is a combined
+  state. Independence read at one coordinate.
+- carried. Standing carries: standing under a certified set
+  implies standing under any subset of it, so verdicts are
+  carried by the witnesses that were load bearing for them.
+- relabeled. Invariance under relabeling: a comparison of
+  two measured values is unchanged by any strictly
+  increasing relabeling. No absolute origin enters a
+  verdict; this is the no baseline condition at full
+  strength, beyond its definitional form in the baseline
+  theorem.
+- parametric. Parametric verdicts: the order of two
+  configurations flips between two cost assignments, so a
+  verdict exists only relative to the contract at play.
+- swap. Swapping commuting effects: two sequential effects
+  that commute may be exchanged in the sequence with the
+  accounting unchanged.
+- controlthree. The dependence control: a locked family of
+  two witness positions forced to agree has two combined
+  states, fewer than the compounded count of four, and
+  every state in it has its positions equal. Independence
+  is load bearing for the compounding count, by concrete
+  counterexample, kept in the tree as a standing control
+  beside the first two controls.
+
+The premise census is unchanged: one carried premise, that
+facts about a runtime or a job enter the system only as
+certified witness states. The open list is unchanged: the
+visibility vector has no formalization yet, and the economic
+calculation over a sequence of cost assignments varying over
+time is not yet formalized.
