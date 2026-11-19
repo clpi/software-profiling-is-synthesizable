@@ -1,0 +1,15 @@
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+'Profiling.baseline' does not depend on any axioms
+'Profiling.finiteness' depends on axioms: [propext]
+'Profiling.compounding' depends on axioms: [propext, Quot.sound]
+'Profiling.distinctness' depends on axioms: [propext, Quot.sound]
+'Profiling.incremental' does not depend on any axioms
+'Profiling.idempotence' does not depend on any axioms
+'Profiling.elimination' does not depend on any axioms
+'Profiling.optimum' depends on axioms: [propext]
+'Profiling.solved' depends on axioms: [propext, Quot.sound]
+'Profiling.falsification' does not depend on any axioms
+'Profiling.controlone' depends on axioms: [propext]
+'Profiling.controltwo' does not depend on any axioms
+Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
+Axioms printed: Quot.sound propext 
